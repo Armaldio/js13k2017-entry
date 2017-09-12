@@ -10,6 +10,9 @@ body {
     background-color: #414141;
 }
 
+/**
+Some fancy effects
+ */
 canvas {
     position: absolute;
     width: 800px;

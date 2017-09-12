@@ -1,3 +1,7 @@
+/**
+ * A square class
+ * used for the squares to find on the canvas
+ */
 export default class Square
 {
 	constructor (width, height = null) {
@@ -31,10 +35,13 @@ export default class Square
 		return this.y + this.height;
 	}
 
+	/**
+	 * Check if the square overlap with a circle
+	 * used to check if the mouse is hovering the square
+	 * @param circle
+	 * @returns {boolean}
+	 */
 	overlapWithCircle (circle) {
-		/*console.log("Square : ", this);
-		console.log("Circle : ", circle);*/
-
 		const distX = Math.abs(circle.x - this.x - this.width / 2);
 		const distY = Math.abs(circle.y - this.y - this.height / 2);
 

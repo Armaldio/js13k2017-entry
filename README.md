@@ -1,3 +1,10 @@
+# My entry
+This is my first entry for the js13k2017
+It's really basic but I hope to be more involved in the coming years
+
+The goal of the game is to find as much squares as possible
+But they are invisible and if you touch the moving ball, you lose
+
 # js13k Webpack Starter
 
 ## What is it?
